@@ -14,7 +14,7 @@ class Square(Rectangle):
     A Square class that inherits from Rectangle.
     """
 
-    def __init__(size, self):
+    def __init__(self, size):
         """
         Initializes instance of the Square class.
 
@@ -30,7 +30,7 @@ class Square(Rectangle):
 
     def __str__(self):
         """
-        This returns a string representation of the square.
+        This is returning a string representation of the square.
 
         Returns:
         A formatted string representing the square.
@@ -40,7 +40,7 @@ class Square(Rectangle):
 
     def area(self):
         """
-        This calculates the area of the square.
+        This is calculating the area of the square.
 
         Returns:
         - Area of the square.
