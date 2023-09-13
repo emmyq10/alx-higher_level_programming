@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 
+"""
+inherits_from specified class
+"""
 
 def inherits_from(obj, a_class):
     """Method that return True if an object is an instance of a class
